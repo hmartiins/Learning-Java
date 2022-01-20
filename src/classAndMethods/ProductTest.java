@@ -4,11 +4,7 @@ public class ProductTest {
 
 	public static void main(String[] args) {
 		// instantiating using type inference
-		var p1 = new Product();
-
-		p1.name = "Notebook";
-		p1.price = 3500.99;
-		p1.discount = 0.50;
+		var p1 = new Product("Notebook", 3500.99, 0.50);
 		
 		// instantiating using the reserved word of the class
 		Product p2 = new Product();
