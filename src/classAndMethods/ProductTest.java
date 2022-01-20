@@ -4,6 +4,7 @@ public class ProductTest {
 
 	public static void main(String[] args) {
 		// instantiating using type inference
+		// instantiating the class passing parameters to the constructor
 		var p1 = new Product("Notebook", 3500.99, 0.50);
 		
 		// instantiating using the reserved word of the class
