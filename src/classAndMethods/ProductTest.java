@@ -17,8 +17,8 @@ public class ProductTest {
 		p2.price = 699.99;
 		p2.discount = 0.25;
 
-		double finalPriceP1 = p1.price * (1 - p1.discount);
-		double finalPriceP2 = p2.price * (1 - p2.discount);
+		double finalPriceP1 = p1.priceWithDiscount();
+		double finalPriceP2 = p2.priceWithDiscount(0.2);
 
 		System.out.printf("Preço total dos produtos: R$%.2f", (finalPriceP1 + finalPriceP2));
 	}
