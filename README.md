@@ -1,6 +1,6 @@
 <div align="center">
     <h1>👨‍💻 Learning-Java 👨‍💻</h1>
-    > This repository was created out of a need of mine, to learn Java, I have always wanted to learn this popular language.
+    This repository was created out of a need of mine, to learn Java, I have always wanted to learn this popular language.
 </div>
 
 ---
@@ -10,8 +10,7 @@
 - [ ] Class and Methods
 - [ ] Arryas and Colections
 - [ ] Object orientation
-- [ ] Stram API
-- [ ] Stram API
+- [ ] Stream API
 - [ ] Error Handling
 - [ ] Generics
 - [ ] Database
