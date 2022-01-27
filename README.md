@@ -7,7 +7,7 @@
 
 ### Subjects to be studied 📚
 
-- [ ] Class and Methods
+- [x] Class and Methods
 - [ ] Arryas and Colections
 - [ ] Object orientation
 - [ ] Stream API
