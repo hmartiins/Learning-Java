@@ -15,7 +15,6 @@ public class Date {
         this.year = year;
     }
 
-
     String getFormattedDate() {
         final String format = "%d/%d/%d";
         return String.format(format, this.day, month, year);
