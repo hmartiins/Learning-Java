@@ -4,28 +4,28 @@ import java.util.Arrays;
 
 public class Exercice {
     public static void main(String[] args) {
-        double[] studentGradeA = new double[3];
+        double[] studentGradesA = new double[3];
 
-        studentGradeA[0] = 7.9;
-        studentGradeA[1] = 5.9;
-        studentGradeA[2] = 9.9;
+        studentGradesA[0] = 7.9;
+        studentGradesA[1] = 5.9;
+        studentGradesA[2] = 9.9;
 
-        System.out.println(Arrays.toString(studentGradeA));
+        System.out.println(Arrays.toString(studentGradesA));
 
         double totalA = 0;
-        for(int i = 0; i < studentGradeA.length; i++) {
-            totalA += studentGradeA[i];
+        for(int i = 0; i < studentGradesA.length; i++) {
+            totalA += studentGradesA[i];
         }
 
-        System.out.println(totalA / studentGradeA.length);
+        System.out.println(totalA / studentGradesA.length);
 
-        double[] studentGradeB = { 6.9, 7.3, 4.3, 10 };
+        double[] studentGradesB = { 6.9, 7.3, 4.3, 10 };
 
         double totalB = 0;
-        for (double v : studentGradeB) {
+        for (double v : studentGradesB) {
             totalB += v;
         }
 
-        System.out.println(totalB / studentGradeB.length);
+        System.out.println(totalB / studentGradesB.length);
     }
 }
