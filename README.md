@@ -8,7 +8,7 @@
 ### Subjects to be studied 📚
 
 - [x] Class and Methods
-- [ ] Arryas and Colections
+- [x] Arryas and Colections
 - [ ] Object orientation
 - [ ] Stream API
 - [ ] Error Handling
@@ -19,7 +19,7 @@
 - [ ] Modularity
 - [ ] JavaFX
 - [ ] Spring Boot
-- [ ] Java Persistent API (JPA)
+- [ ] Java Persistent API (JPA):olhos
 
 
 <hr>
