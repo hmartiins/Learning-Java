@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Buy {
 
     String clientName;
-    ArrayList<Item> items = new ArrayList<Item>();
+    ArrayList<Item> items = new ArrayList<Item>() ;
 
     void addItem(String name, int amount, double price) {
         this.addItem(new Item(name, amount, price));
