@@ -4,25 +4,25 @@ public class Game {
 
     public static void main(String[] args) {
 
-        Hero p1 = new Hero();
-        p1.x = 10;
-        p1.y = 10;
+        Hero hero = new Hero();
+        hero.x = 10;
+        hero.y = 10;
 
-        Player p2 = new Monster();
-        p2.x = 10;
-        p2.y = 11;
+        Player monster = new Monster();
+        monster.x = 10;
+        monster.y = 11;
 
-        p1.walk(Direction.NORTH);
-        p2.walk(Direction.NORTH);
+        hero.walk(Direction.NORTH);
+        monster.walk(Direction.NORTH);
 
-        System.out.println(p1.life);
-        System.out.println(p2.life);
+        System.out.println("Herói tem: " + hero.life + " de vida.");
+        System.out.println("Monstro tem: " + monster.life + " de vida.");
 
-        p1.attack(p2);
-        p2.attack(p1);
+        hero.attack(monster);
+        monster.attack(hero);
 
-        System.out.println(p1.life);
-        System.out.println(p2.life);
+        System.out.println("\nHerói tem: " + hero.life + " de vida.");
+        System.out.println("Monstro tem: " + monster.life + " de vida.");
 
     }
 }

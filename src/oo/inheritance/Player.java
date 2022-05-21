@@ -21,15 +21,13 @@ public class Player {
         return false;
     }
 
-    boolean walk(Direction direction) {
+    void walk(Direction direction) {
         switch (direction) {
             case NORTH -> y++;
             case SOUTH -> y--;
             case EAST -> x++;
             case WEST -> x--;
         }
-
-        return true;
     }
 
 }
