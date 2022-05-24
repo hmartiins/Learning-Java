@@ -2,6 +2,10 @@ package oo.inheritance.challenge;
 
 public class Ferrari extends Car {
 
+    public Ferrari() {
+        super(225);
+    }
+
     @Override
     public void speedUp() {
         super.speedUp();
