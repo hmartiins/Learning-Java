@@ -2,12 +2,12 @@ package oo.inheritance.challenge;
 
 public class Car {
 
-    final int MAX_SPEED;
+    public final int MAX_SPEED;
 
-    int currentSpeed = 0;
-    int delta = 5;
+    public int currentSpeed = 0;
+    protected int delta = 5;
 
-    public Car(int max_speed) {
+    protected Car(int max_speed) {
         MAX_SPEED = max_speed;
     }
 
