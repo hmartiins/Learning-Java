@@ -1,21 +1,9 @@
 package oo.polymorphism;
 
-public class Icecream {
-
-    private double weight;
+public class Icecream extends Food {
 
     public Icecream(double weight) {
-        setWeight(weight);
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
-    public void setWeight(double weight) {
-        if (weight >= 0) {
-            this.weight = weight;
-        }
+        super(weight);
     }
 
 }
