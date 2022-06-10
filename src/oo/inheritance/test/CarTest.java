@@ -13,8 +13,11 @@ public class CarTest {
         System.out.println("Velocidade atual do Gol: " + gol.currentSpeed);
 
         ferrari.speedUp();
+        ferrari.turnOnNitro();
+        ferrari.turnOnAir();
         ferrari.speedUp();
         ferrari.speedUp();
+
         gol.speedUp();
         gol.speedUp();
         gol.speedUp();
