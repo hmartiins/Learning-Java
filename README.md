@@ -9,7 +9,7 @@
 
 - [x] Class and Methods
 - [x] Arryas and Colections
-- [ ] Object orientation
+- [x] Object orientation
 - [ ] Stream API
 - [ ] Error Handling
 - [ ] Generics
