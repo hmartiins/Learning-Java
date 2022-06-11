@@ -1,6 +1,6 @@
 package lambdas.initial;
 
-public class Multiply implements Calc{
+public class Multiply implements Calc {
 
     @Override
     public double execute(double a, double b) {
